@@ -47,7 +47,7 @@ class CityListTest {
         City city = new City("Calgary", "Alberta");
         cityList.add(city);
 
-        assertFalse(cityList.hasCity(city));
-        //assertTrue(cityList.hasCity(city));
+        //assertFalse(cityList.hasCity(city));
+        assertTrue(cityList.hasCity(city));
     }
 }
